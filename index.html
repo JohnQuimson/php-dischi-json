@@ -20,7 +20,18 @@
   </head>
 
   <body>
-    <div id="app"></div>
+    <div id="app" v-cloak>
+      <ul>
+        <li v-for="album in albums">
+          <h2>{{ album.titolo }}</h2>
+          <p>{{ album.artista }}</p>
+          <span>{{ album.anno }}</span>
+          <div class="cont-img">
+            <img :src="`img/${album.immagine}`" :alt="album.artista" />
+          </div>
+        </li>
+      </ul>
+    </div>
 
     <!-- Vue JS -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>

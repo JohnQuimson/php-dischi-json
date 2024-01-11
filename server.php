@@ -9,8 +9,7 @@ $database = file_get_contents(__DIR__ . '/albums.json');
 
 $albums = json_decode($database);
 
-
-
+// 3. Elaborazioni
 
 
 // trasformo in json
