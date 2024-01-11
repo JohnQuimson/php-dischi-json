@@ -21,16 +21,28 @@
 
   <body>
     <div id="app" v-cloak>
-      <ul>
-        <li v-for="album in albums">
-          <h2>{{ album.titolo }}</h2>
-          <p>{{ album.artista }}</p>
-          <span>{{ album.anno }}</span>
-          <div class="cont-img">
-            <img :src="`img/${album.immagine}`" :alt="album.artista" />
+      <!-- HEADER -->
+      <header>
+        <div class="cont-header">
+          <div class="cont-logo">
+            <img src="img/logo.png" alt="logo" />
           </div>
-        </li>
-      </ul>
+        </div>
+      </header>
+
+      <!-- MAIN -->
+      <main>
+        <ul>
+          <li v-for="album in albums">
+            <div class="cont-img">
+              <img :src="`img/${album.immagine}`" :alt="album.artista" />
+            </div>
+            <h2>{{ album.titolo }}</h2>
+            <p>{{ album.artista }}</p>
+            <span>{{ album.anno }}</span>
+          </li>
+        </ul>
+      </main>
     </div>
 
     <!-- Vue JS -->

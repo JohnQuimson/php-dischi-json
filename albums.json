@@ -22,5 +22,17 @@
     "artista": "Juice Wrld",
     "anno": "2021",
     "immagine": "juice-wrld.jpeg"
+  },
+  {
+    "titolo": "Rockstar (Popstar Edition)",
+    "artista": "Sfera Ebbasta",
+    "anno": "2018",
+    "immagine": "sfera.jpg"
+  },
+  {
+    "titolo": "Astroword",
+    "artista": "Travis Scott",
+    "anno": "2018",
+    "immagine": "travis.jpg"
   }
 ]
