@@ -36,6 +36,7 @@
 ## Description
 
 Creare una web-app che permetta di leggere una lista di dischi presente nel nostro server.
+A scopo didattico ho voluto suddividere Front-end dal Back-end creandomi un index.html anzichè .php
 
 ### BONUS:
 
